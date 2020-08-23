@@ -1,18 +1,23 @@
-[![BIOS](https://img.shields.io/badge/BIOS-1.31-brightgreen.svg)](https://pcsupport.lenovo.com/us/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-P-SERIES-LAPTOPS/THINKPAD-P52-TYPE-20M9-20MA/20M9/downloads/DS504024)
-![macOS](https://img.shields.io/badge/macOS-10.15.4-orange.svg)
-![Clover](https://img.shields.io/badge/Clover-r5103-yellowgreen.svg)
-## Introduction (Welcome to QQ (tencent chatting program) group：97986046)
-Purpose is to allow ThinkPad P52/P53/P72/P73 to run mac OS mojave as natively as possible
+[![BIOS](https://img.shields.io/badge/BIOS-1.37-brightgreen.svg)](https://pcsupport.lenovo.com/us/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-P-SERIES-LAPTOPS/THINKPAD-P52-TYPE-20M9-20MA/20M9/downloads/DS504024)
+![macOS](https://img.shields.io/badge/macOS-11.0%20beta4-orange.svg)
+![Clover](https://img.shields.io/badge/OpenCore-0.6.0-blue.svg)
+<img align="right" src="https://www.notebookcheck.net/uploads/tx_nbc2/teaser1_25.jpg" alt="Critter" width="300">
+## Introduction (QQ Group Chat: 97986046)
 
 Tips: If you want to use built-in network adapter, you'd better buy a new pcie card, and I suggest DW1560 or DW1830, considering about the size and space. Also, P52 does not have whitelist upon WLAN hardware, you even do not need to modify your BIOS
 
 ## Installing Guides
-- [Chinese Video Guides | Bilibili.com](https://space.bilibili.com/188733433?from=search&seid=782751373682115347)
-- Sorry for that, no other language supported, you may find general guides on popular forums.
-- Thanks to 嘚儿覅 for supporting the guides video
-## Releases (Until 2020/2/12)
-- The latest version is 3.0.
-- [Download Here](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.15.x/releases/download/3.0/EFI.zip)
+- [Simplified Chinese Video Guides | Bilibili.com](https://space.bilibili.com/188733433?from=search&seid=782751373682115347)
+- Thanks to z for supporting the guides video
+
+## Releases (Until 2020/8/18)
+- The latest version: V4.2
+- [Download Here](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/releases/download/4.2/EFI-4.2.zip)
+
+## Updates (Until 2020/8/18)
+- Update to OpenCore 0.6.0 official version
+- Support macOS 11.0 beta 4
+- Fix a few minor bugs
 
 ## Updates (Until 2020/2/12)
 - Add device support for P53 and P73
@@ -22,7 +27,7 @@ Tips: If you want to use built-in network adapter, you'd better buy a new pcie c
 - AppleALC is merged in the official version. The CODE has been merged in acidanthera's GitHub
 
 ## Updates (Until 2020/1/14)
-- Happy New Years!!
+- Happy New Year!!
 - Update Clover version to r5103
 
 ## Updates (Until 2019/12/17)
@@ -98,29 +103,28 @@ Tips: If you want to use built-in network adapter, you'd better buy a new pcie c
 
 ## System Screen Shot
 ### System Info
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.15.x/blob/master/Screen%20Shot/System%20Info_10.15.2.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/sys.png)
 ### RAM Slots
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/RAM.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/mem.png)
 ### Displays
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Display%20Info.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/display.png)
 ### eGPU & Thunderbolt3
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/eGPU.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/tb.jpg)
 ### eGPU connected via ThunderBolt3 graphics card dock
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/eGPU1.jpg)
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/eGPU2.jpg)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/tbdockpv.jpg)
 ### Power menu
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Power%20menu.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/powermenu.png)
 ### USB ports
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/USB%20ports.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/usb.png)
 ### Graphics
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Graphics.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/graphics.png)
 ### Audio
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Audio.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/audio.png)
 ### Power
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Power.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/batt.png)
 ### wifi
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Wifi.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/wifi.png)
 ### Bluetooth
-![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh-10.14.X-/blob/master/Screen%20Shot/Bluetooth.png)
+![image](https://github.com/liuyishengalan/ThinkPad-P52-Hackintosh/blob/master/ScreenShots/bt.png)
 
 
